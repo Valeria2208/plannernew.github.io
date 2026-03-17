@@ -1,0 +1,110 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f6f6f6;
+}
+
+/* HEADER */
+
+header{
+background:#8B5E2E;
+color:white;
+padding:15px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav{
+display:flex;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:18px;
+padding:8px 15px;
+border-radius:6px;
+transition:0.2s;
+}
+
+nav a:hover{
+background:rgba(255,255,255,0.2);
+}
+/* MAIN CONTAINER */
+
+.container{
+display:flex;
+width:100%;
+padding:40px;
+gap:60px;
+box-sizing:border-box;
+}
+
+/* LEFT SIDE */
+
+.left{
+flex:1;
+}
+
+/* RIGHT SIDE */
+
+.right{
+flex:1;
+}
+
+/* DONUT + LEGEND */
+
+.stats{
+display:flex;
+align-items:center;
+gap:40px;
+margin-top:20px;
+}
+
+.legend-item{
+display:flex;
+align-items:center;
+gap:10px;
+margin-bottom:10px;
+font-size:16px;
+}
+
+.color{
+width:14px;
+height:14px;
+border-radius:3px;
+}
+
+.study{background:#2F80ED;}
+.exam{background:#EB5757;}
+.project{background:#27AE60;}
+.personal{background:#F2C94C;}
+
+/* BAR CHART DAYS */
+
+.week-days{
+display:flex;
+justify-content:space-between;
+width:100%;
+margin-top:10px;
+font-weight:500;
+}
+
+.week-days span{
+flex:1;
+text-align:center;
+}
+
+/* CANVAS */
+
+#barChart{
+width:100%;
+height:220px;
+}
+
+#donutChart{
+width:220px;
+height:220px;
+}
